@@ -1,9 +1,13 @@
-// const firstName = "Natalia";
-// console.log("hello", firstName);
+const titleProject = "Оценка стоимости";
+const screensValue = "шаблонные, с уникальным дизайном, с анимациями";
+const screenPrice = 2000;
+const percentage = 5;
+const fullPrice = 8000;
+const responsive = false;
 
-let firstName = "Natalia";
-let age = "40";
-let city = "Munich";
-let hobby = "design";
-
-console.log("Hello", firstName, age, city, hobby);
+console.log("Название проекта:", titleProject);
+console.log("Типы экранов:", screensValue);
+console.log("цена реализации одного экрана:", screenPrice);
+console.log("процент отката подрядчику:", percentage);
+console.log("желаемая сумма заработка с проекта:", fullPrice);
+console.log("Адаптивность:", responsive);
